@@ -256,9 +256,31 @@ a:hover{
     width: 260px;
 
     border-radius: 8px;
+    opacity: 95%;
 
 }
 
 .Card_collection{
     display: inline-block;
+    position: relative;
+}
+
+#text1{
+    position: absolute;
+    bottom: 35px;
+    left: 15px;
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#text2{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

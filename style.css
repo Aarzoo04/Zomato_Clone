@@ -194,6 +194,7 @@ a:hover{
     background-color: white;
     position: sticky;
     top: 0px;
+    z-index: 2;
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -236,19 +237,23 @@ a:hover{
 /* header3 */
 
 .collections{
-   height: 500px;
+   height: 450px;
 
-   padding-left: 250px;
+   
 
 }
 
 .collections>h2{
     padding: 15px 0px 25px 0px;
     font-size: 30px;
+
+    padding-left: 250px;
 }
 
 .collections>p{
     margin-bottom: 10px;
+
+    padding-left: 250px;
     
 }
 .Card_collection>img{
@@ -258,11 +263,18 @@ a:hover{
     border-radius: 8px;
     opacity: 95%;
 
+    margin: 0px 15px 0px 0px;
+
+}
+
+.card1{
+    margin-left: 228px;
 }
 
 .Card_collection{
     display: inline-block;
     position: relative;
+    z-index: 1;
 }
 
 #text1{

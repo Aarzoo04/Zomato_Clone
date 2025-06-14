@@ -20,12 +20,12 @@
 
             <!-- search bar  -->
             <div id="search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                </svg>
+                <form>          
 
-                <input type="search" placeholder="Search for restaurent, cuisine or dish" id="search_p">
+                    <input type="search" placeholder="Search for restaurent, cuisine or dish" id="search_p">
 
+                </form>
+                
             </div>
 
             <a href="" id="login">Login</a>
@@ -34,16 +34,63 @@
         </div>
         
         <!-- header 2  -->
-        <nav>
-            <a href=""><img src="./dining out.avif" alt="" id="diningOut">Dining Out</a>
-            <a href="">Delivery</a>
-            <a href="">Nightlife</a>
-        </nav>
+            <div id="header2">
+                <nav>
+                    <!-- Dining Out  -->
+                    <div class="section dining">
+                        <img src="./dining out.avif" alt="Dining Out">
+                        <h2>Dining Out</h2>
+                    </div>
 
+                    <!-- Delivery  -->
+                    <div class="section delivery">
+                        <img src="./Delivery.webp" alt="Delivery">
+                        <h2>Delivery</h2>
+                    </div>
+
+                    <!-- NightLife -->
+                    <div class="section nightlife">
+                        <img src="./nightlife.webp" alt="Night life">
+                        <h2>Night Life</h2>
+                    </div>
+
+                </nav>
+            </div>
+
+        <!-- header 3    -->
+         <div class="collections">
+            <h2>Collections</h2>
+
+            <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</p>
+
+            <!-- Card 1 of Collection  -->
+            <div class="Card_collection">
+                <img src="./collection_card1.avif" alt="">
+            </div>
+
+            <!-- Card 2 of Collection  -->
+            <div class="Card_collection">
+                <img src="./collection_card2.avif" alt="">
+            </div>
+
+            <!-- Card 3 of Collection  -->
+            <div class="Card_collection">
+                <img src="./collection_card3.avif" alt="">
+            </div>
+
+            <!-- Card 4 of Collection  -->
+            <div class="Card_collection">
+                <img src="./collection_card4.avif" alt="">
+            </div>
+            
+         </div>
     </header>
 
     <main>
 
+        <div class="main_container">
+        <img src="./banner_main.avif" alt="50% off">
+        <h2>Best Food in Delhi NCR</h2>
         <!-- Card 1 -->
          <div class="card">
             <!-- Image  -->
@@ -84,7 +131,7 @@
                 </div>
              </div>
          </div>
-
+        
 
 
          <!-- Card 2  -->
@@ -300,7 +347,7 @@
                 </div>
              </div>
          </div>
-
+        </div>
     </main>
 </body>
 </html>

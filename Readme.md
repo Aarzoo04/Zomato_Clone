@@ -39,7 +39,7 @@ A static web project that replicates the homepage layout of [Zomato](https://www
 - index.html
 - style.css
 - utils/
-    - ### Contains all images used in the project
+    - Contains all images used in the project
 
 ## 🎯 Learning Outcomes
 - HTML Semantic Structure
